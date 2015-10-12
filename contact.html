@@ -6,19 +6,22 @@
         <meta name="keywords" content="" />
         <meta name="description" content="" />
         <link href="styles.css" rel="stylesheet" type="text/css" media="screen" />
+
+        <script> 
+            $(function(){
+            $("#header").load("header.html"); 
+            $("#footer").load("footer.html"); 
+            });
+        </script>
+
     </head>
     <body>
         <div id="bg_top">
-            <div id="menu">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="gallery.html">Photo Gallery</a></li>
-                    <li><a href="aboutus.html">About Us</a></li>
-                    <li><a href="contact.html" class="active">Contact Us</a></li>
-                </ul>
-                <div style="clear: both"></div>
-            </div>
+            
+
+             <!-- Loading Menu using JQuery -->
+            <div id="header"></div>
+
             <div id="wrap">
                 <div id="logo">
                     <h1><a href="#">metamorph_christmascoming</a></h1>
