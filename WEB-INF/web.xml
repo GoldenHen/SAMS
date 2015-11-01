@@ -1,0 +1,13 @@
+<web-app>  
+  
+<servlet>  
+<servlet-name>ContactMe</servlet-name>  
+<servlet-class>ContactMe</servlet-class>  
+</servlet>  
+  
+<servlet-mapping>  
+<servlet-name>ContactMe</servlet-name>  
+<url-pattern>/servlet/ContactMe</url-pattern>  
+</servlet-mapping>  
+  
+</web-app>  
